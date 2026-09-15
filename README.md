@@ -83,14 +83,6 @@ CivicEye AI defines a clear separation between its current prototype state and i
 
 ## 🔄 System Workflow
 
-```mermaid
-graph TD
-    A[Citizen] -->|Submits Report| B[CivicEye AI Interface]
-    B -->|Uploads Details / Image / Location| C[Backend / Processing Layer]
-    C -->|AI Analysis / Categorization (Proposed)| D[Priority Assignment]
-    D -->|Routed to| E[Authority Review Dashboard]
-    E -->|Action Taken| F[Issue Resolution]
-    F -->|Status Updated| G[Citizen Feedback / Notification]
 graph LR
     subgraph Client Tier
         A[Web / Mobile Interface]
